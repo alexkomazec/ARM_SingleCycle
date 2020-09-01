@@ -1,0 +1,45 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "E:/ARM_full/ARMED/tb_isim_beh.exe" -prj "E:/ARM_full/ARMED/tb_beh.prj" "work.tb" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/ARM_full/ARMED/../PCReg.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../InsMem.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../FileRegistar.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../extender.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../demux32.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../demux0.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../demux.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../Datamem.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../ALU.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../Addr.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../dp.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../cu.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../topfile.vhd" into library work
+Parsing VHDL file "E:/ARM_full/ARMED/../tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity cu [cu_default]
+Compiling architecture behavioral of entity PCreg [pcreg_default]
+Compiling architecture behavioral of entity InsMem [insmem_default]
+Compiling architecture behavioral of entity demux0 [demux0_default]
+Compiling architecture behavioral of entity demux [demux_default]
+Compiling architecture behavioral of entity FileRegistar [fileregistar_default]
+Compiling architecture behavioral of entity extender [extender_default]
+Compiling architecture behavioral of entity demux32 [demux32_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Datamem [datamem_default]
+Compiling architecture behavioral of entity Addr [addr_default]
+Compiling architecture behavioral of entity dp [dp_default]
+Compiling architecture behavioral of entity topfile [topfile_default]
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable E:/ARM_full/ARMED/tb_isim_beh.exe
+Fuse Memory Usage: 33680 KB
+Fuse CPU Usage: 967 ms
